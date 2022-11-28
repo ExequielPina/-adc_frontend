@@ -18,17 +18,14 @@ const Header = () => {
             <Link to="/admin" className="text-white text-sm uppercase font-bold">Clientes</Link>
             <Link to="/admin/perfil" className="text-white text-sm uppercase font-bold">Perfil</Link>
 
-            <div>
-            
+            <div>         
                 <button type="button" 
                         className="text-white text-sm uppercase font-bold"
                         onClick={ cerrarSesion }
                     >Cerrar sesión
-                </button>    
-                <FontAwesomeIcon className="ml-2 text-white" icon={faUserXmark} />
+                    <FontAwesomeIcon className="ml-2 text-white" icon={faUserXmark} />
+                </button>              
             </div>
-         
-            
         </nav>
         </div>
     </header>
