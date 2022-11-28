@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AuthLayout from './layout/AuthLayout'
 import RutaProtegida from './layout/RutaProtegida'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {} from '@fortawesome/free-solid-svg-icons'
 
 import AdminClientes from './paginas/AdminClientes'
 import Login from './paginas/Login'
